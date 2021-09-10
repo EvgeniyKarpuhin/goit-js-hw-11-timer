@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.timer {
+    display: flex;
+    padding: 10px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+}
+
+.field {
+    min-width: 100px;
+    margin: 20px;
+}
+
+.value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    background-color: darkgray;
+    border-radius: 20%;
+    height: 100px;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
